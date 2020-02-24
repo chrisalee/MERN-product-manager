@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-weight: 300;
+}
+
+body {
+    font-family: serif;
+    color: #4a70ac;
+    font-weight: 300;
+    background: #e8f0b9;
+    width: 100%;
+    height: 100%;
+    background-image: url("https://www.transparenttextures.com/patterns/az-subtle.png");
+
+}
+
+.container {
+    margin: 10% auto;
+    /* padding: 10px 0; */
+    text-align: center;
+}
+
+.container h1 {
+    font-size: 40px;
+    font-weight: 200;
+}
+
+input {
+    border: 1px solid rgba(252, 252, 252, 0.4);
+    background-color: rgba(252, 252, 252, 0.2);
+    width: 300px;
+    border-radius: 3px;
+    font-family: cursive;
+    padding: 10px 15px;
+    margin: 0 auto 10px auto;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: #4a70ac;
+    font-weight: 300;
+}
+
+.form-button {
+    appearance: none;
+    outline: 0;
+    background-color: #4a70ac;
+    border: 0;
+    padding: 10px 15px;
+    color: #adaf9d;
+    border-radius: 3px;
+    width: 300px;
+    font-size: 18px;
+}
